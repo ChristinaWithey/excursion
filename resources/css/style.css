@@ -20,6 +20,20 @@
 
 .video {
     background-color: black;
-    
-    
+    width: 20%;
+    height: 400px;
+
+}
+
+.title2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 21px;
 }
