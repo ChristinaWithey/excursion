@@ -3,6 +3,14 @@
     background-color: black;
 }
 
+div.container {
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+
+}
+
 .title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
@@ -21,8 +29,8 @@
 .video {
     background-color: black;
     background-image: url(/resources/videos/excursion.mp4);
-    width: relative;
-    height: 100%;
+
+    padding: 20px;
 
 }
 
@@ -41,12 +49,21 @@
 
 .tent_image {
     background-image: url(/resources/images/camp.webp);
+    text-align: center;
+    padding: 20px 0;
 
+    
+    
 }
 
 .phone_image {
     background-image: url(/resources/images/phone.webp);
+    text-align: center;
+    padding: 20px;
+    
+}
 
+.footer {
 
 }
 
