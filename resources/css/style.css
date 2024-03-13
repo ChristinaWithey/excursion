@@ -8,7 +8,6 @@ div.container {
     justify-content: space-between;
     text-align: center;
     flex-direction: column;
-
 }
 
 .title {
@@ -16,7 +15,6 @@ div.container {
     font-weight: normal;
     font-size: 50px;
     color: white;
-    
 }
 
 .link {
@@ -29,8 +27,6 @@ div.container {
 .video {
     background-color: black;
     padding: 10px;
-    background-image: url(./resources/videos/excursion.mp4);
-
 }
 
 .title2 {
@@ -46,30 +42,27 @@ div.container {
     font-size: 21px;
 }
 
-
 .phone_image {
     padding: 20px 0 0 0;
 }
 
-.footer {
-    display: inline-flex;
-    justify-content: space-around;
-    flex-direction: row;
-    text-align: right;
+#footer {
+    display: flex;
+    height: 50px;
+    color: gray;
+    justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .copyright {
-    text-align: right;
     color: gray;
-    font-size: 21px;
+    font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
-    background-image: url(/resources/favicon_io/favicon-32x32.png);
 }
-    
 
 .favicon {
-    
     display: inline-block;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    font-size: 15px;
 }
