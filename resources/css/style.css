@@ -28,9 +28,8 @@ div.container {
 
 .video {
     background-color: black;
-    background-image: url(/resources/videos/excursion.mp4);
-
     padding: 20px;
+    background-image: url(./resources/videos/excursion.mp4);
 
 }
 
@@ -48,12 +47,12 @@ div.container {
 }
 
 .tent_image {
-    background-image: url(/resources/images/camp.webp);
+    background-image: url(./resources/images/camp.webp);
     text-align: center; 
 }
 
 .phone_image {
-    background-image: url(/resources/images/phone.webp);
+    background-image: url(./resources/images/phone.webp);
     text-align: center;
     padding: 20px 0 0 0;
     
@@ -74,4 +73,12 @@ div.container {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     background-image: url(/resources/favicon_io/favicon-32x32.png);
+}
+
+.favicon {
+    
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
 }
