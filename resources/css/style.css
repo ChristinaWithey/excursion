@@ -21,8 +21,8 @@
 .video {
     background-color: black;
     background-image: url(/resources/videos/excursion.mp4);
-    width: 20%;
-    height: 400px;
+    width: relative;
+    height: 100%;
 
 }
 
@@ -40,7 +40,6 @@
 }
 
 .tent_image {
-    align-items: center;
     background-image: url(/resources/images/camp.webp);
 
 }
@@ -49,4 +48,11 @@
     background-image: url(/resources/images/phone.webp);
 
 
+}
+
+.copyright {
+    text-align: right;
+    color: gray;
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
